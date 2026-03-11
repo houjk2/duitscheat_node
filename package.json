@@ -1,0 +1,20 @@
+{
+  "name": "german-dutch-interpreter",
+  "version": "1.0.0",
+  "description": "Background German → Dutch audio interpreter",
+  "main": "interpreter.js",
+  "scripts": {
+    "start":  "node interpreter.js",
+    "list":   "node interpreter.js --list",
+    "small":  "node interpreter.js --model small",
+    "medium": "node interpreter.js --model medium"
+  },
+  "dependencies": {
+    "@vitalets/google-translate-api": "^8.4.0",
+    "@xenova/transformers": "^2.17.2",
+    "naudiodon": "^2.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
